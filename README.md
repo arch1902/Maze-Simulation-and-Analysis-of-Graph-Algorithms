@@ -1,6 +1,5 @@
 # Maze-simulation of Travelling Salesman Problem
-## Aman Gupta
-## Arpit Chauhan
+## by Aman Gupta & Arpit Chauhan
 
 * Use ```make``` to compile all the files
 * Use ```./tsp-simulation``` to run the executable
