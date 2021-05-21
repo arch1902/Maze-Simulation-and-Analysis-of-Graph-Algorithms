@@ -121,18 +121,18 @@ static class Simulation {
 
     {
       const unsigned int x1 = 480 + 20;
-      const unsigned int y1 = 480 / 7 + 10;
+      const unsigned int y1 = 480 / 7 + 100;
       const unsigned int x2 = x1 + 40;
       const unsigned int y2 = y1 + 30;
       const unsigned int x3 = x2 + 30;
       const unsigned int y3 = y2;
 
       stringstream score;
-      score << " C.Size :  " << s1;
-      draw_text(1, rgb::white, Point{x1, y1}, score.str().c_str());
+      score << " Current :  " << s1;
+      draw_text(1, rgb::red, Point{x1, y1}, score.str().c_str());
       stringstream life;
-      life << "Min:"<<s2;
-      draw_text(1, rgb::white, Point{x2, y2}, life.str().c_str());
+      life << "Min : "<<s2;
+      draw_text(1, rgb::red, Point{x2-5, y2}, life.str().c_str());
 
     }
    }

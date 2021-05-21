@@ -34,7 +34,7 @@ class ImageManager {
 
     load("./data/1.png", 0);
     load("./data/2.png", 1);
-    load("./data/wall.png", 2);
+    load("./data/bg_green.png", 2);
     load("./data/bg_red.png", 3);
     load("./data/bg_green.png", 4);
     load("./data/bg_blue.png", 5);
@@ -45,7 +45,7 @@ class ImageManager {
     load("./data/aosuke.png", 10);
     load("./data/guzuta.png", 11);
     load("./data/mon_run.png", 12);
-    load("./data/plate.png", 13);
+    load("./data/plate3.png", 13);
     load("./data/bullet.png",14);
     load("./data/b1.png",15);
   }
