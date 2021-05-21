@@ -32,3 +32,4 @@
 *.app
 tsp-simulation
 .vscode
+*.json
