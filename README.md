@@ -9,3 +9,4 @@
 * The Blue Path represents the shortest path found till that moment whose path length is shown in the right panel as "Min".
 * The Yellow Path is the one being travelled in the current iteration with the red cherry at its head .
 * The length of the current path is shown as "Current" in the right panel.
+* Apples represent the cities to be travelled or the stones to be collected.
