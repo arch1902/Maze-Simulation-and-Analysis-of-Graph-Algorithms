@@ -1,4 +1,4 @@
-TARGET = firebird-sdl
+TARGET = tsp-simulation
 SRCS = $(wildcard $(SRC_DIR)/*.cpp)
 OBJS = $(patsubst $(SRC_DIR)/%.cpp,$(OBJ_DIR)/%.o,$(SRCS))
 SRC_DIR = src
